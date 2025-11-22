@@ -1,0 +1,132 @@
+# .NET/.NET Core/Visual Studio.gitignore
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.csproj.user
+*.pidb
+*.svclog
+*.pdb
+*.dbmdl
+*.dbmdl
+*.vsp
+*.vspx
+*.psess
+*.vspx
+*.sdf
+*.cache
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*.ncb
+*.sbr
+*.scc
+*.orig
+*.bak
+*.tmp
+*.tmp_proj
+*.log
+*.vs/
+
+# Visual Studio Code
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+Desktop.ini
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Web resource caches
+ClientBin/
+
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# Others
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# Local history for Visual Studio
+.localhistory/
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Azure Stream Analytics local run output
+ASALocalRun/
+
+# Windows WPF/WinForms designer generated files
+*.g.cs
+*.g.i.cs
+*.designer.cs
+*.g.vb
+*.g.i.vb
+*.designer.vb
+
+# Backup & report files
+*.bak
+*.Backup
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# End of .gitignore
